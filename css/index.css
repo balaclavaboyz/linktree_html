@@ -42,11 +42,15 @@ body{
   min-width: 200px;
   margin-top: 1rem;
 }
-.button > a {
+.button_wrapper>a{
+  text-decoration-line: none;
+}
+
+.button {
   color: black;
   text-decoration-line: none;
 }
-.button > a {
+.button {
   display: flex;
   align-items: center;
   gap: 1rem;
